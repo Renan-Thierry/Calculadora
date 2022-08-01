@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="calculadora.js"></script>
+  <title>Calculadora</title>
+</head>
+
+<body>
+  <h1>CALCULADORA</h1>
+  <form action="" name="calculadora">
+    <div id="calculadora">
+      <h2>Calculadora</h2>
+      <input type="text" id="tela" name="tela">
+      <div id="linha1">
+        <input type="button" value="1" class="botao" onclick="botao(value)">
+        <input type="button" value="2" class="botao" onclick="botao(value)">
+        <input type="button" value="3" class="botao" onclick="botao(value)">
+        <input type="button" value="*" class="botao" onclick="multiplicar(value)">
+      </div>
+      <div id="linha2">
+        <input type="button" value="4" class="botao" onclick="botao(value)">
+        <input type="button" value="5" class="botao" onclick="botao(value)">
+        <input type="button" value="6" class="botao" onclick="botao(value)">
+        <input type="button" value="+" class="botao" onclick="somar(value)">
+      </div>
+      <div id="linha3">
+        <input type="button" value="7" class="botao" onclick="botao(value)">
+        <input type="button" value="8" class="botao" onclick="botao(value)">
+        <input type="button" value="9" class="botao" onclick="botao(value)">
+        <input type="button" value="-" class="botao" onclick="diminuir(value)">
+      </div>
+    </div>
+    <div id='linha4'>
+      <input type="button" value="C" class="botao" onclick="apaga()">
+      <input type="button" value="0" class="botao" onclick="botao(value)">
+      <input type="button" value="=" class="botao" onclick="resultado()">
+      <input type="button" value="/" class="botao" onclick="dividir(value)">
+    </div>
+  </form>
+</body>
+
+</html>
